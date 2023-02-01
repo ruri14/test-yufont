@@ -1,0 +1,177 @@
+extend _layout.pug
+
+append pagedata
+  - var cate = ""
+  - var title = ""
+  - var metadescription = ""
+
+append pagecss
+  //- link(rel='stylesheet' href="./assets/css/top.css")
+  style.
+    .yugothic {
+      font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic";
+    }
+    .yumincho {
+      font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho";
+    }
+    .yumincho-light {
+      font-family: "游明朝 Light", "Yu Mincho Light";
+    }
+    .yumincho-regular {
+      font-family: "游明朝 Regular", "Yu Mincho Regular";
+    }
+    .yumincho-medium {
+      font-family: "游明朝体 Medium", "YuMincho Medium";
+    }
+    .yumincho-demibold {
+      font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold";
+    }
+    .yumincho-extrabold {
+      font-family: "游明朝体 Extrabold", "YuMincho Extrabold";
+    }
+    .weight-100 {
+      font-weight: 100;
+    }
+    .weight-200 {
+      font-weight: 200;
+    }
+    .weight-300 {
+      font-weight: 300;
+    }
+    .weight-400 {
+      font-weight: 400;
+    }
+    .weight-500 {
+      font-weight: 500;
+    }
+    .weight-600 {
+      font-weight: 600;
+    }
+    .weight-700 {
+      font-weight: 700;
+    }
+    .weight-800 {
+      font-weight: 800;
+    }
+    .weight-900 {
+      font-weight: 900;
+    }
+    .weight-normal {
+      font-weight: normal;
+    }
+    .weight-bold {
+      font-weight: bold;
+    }
+
+append pagejs
+  //- script(src="./assets/js/script.js" defer)
+
+block main
+  main
+    h2 游ゴシック
+    p.yugothic.weight-100 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 100;
+    p.yugothic.weight-200 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 200;
+    p.yugothic.weight-300 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 300;
+    p.yugothic.weight-400 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 400;
+    p.yugothic.weight-500 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 500;
+    p.yugothic.weight-600 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 600;
+    p.yugothic.weight-700 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 700;
+    p.yugothic.weight-800 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 800;
+    p.yugothic.weight-900 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 900;
+    p.yugothic.weight-normal font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: normal;
+    p.yugothic.weight-bold font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: bold;
+    //- p.yugothic.weight-100 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 100;
+    //- p.yugothic.weight-200 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 200;
+    //- p.yugothic.weight-300 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 300;　　　// Win: Light
+    //- p.yugothic.weight-400 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 400;　　　// Win: Regular
+    //- p.yugothic.weight-500 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 500;　　　// Win: Medium　Mac: Medium
+    //- p.yugothic.weight-600 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 600;　　// Win: Bold　Mac: Bold
+    //- p.yugothic.weight-700 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 700;
+    //- p.yugothic.weight-800 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 800;
+    //- p.yugothic.weight-900 font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: 900;
+    //- p.yugothic.weight-normal font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: normal;　　// Win: Regular　Mac: Medium
+    //- p.yugothic.weight-bold font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; font-weight: bold;　　// Win: Regular　Mac: Bold
+    h2 游明朝
+    p.yumincho.weight-100 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 100;
+    p.yumincho.weight-200 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 200;
+    p.yumincho.weight-300 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 300;
+    p.yumincho.weight-400 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 400;
+    p.yumincho.weight-500 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 500;
+    p.yumincho.weight-600 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 600;
+    p.yumincho.weight-700 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 700;
+    p.yumincho.weight-800 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 800;
+    p.yumincho.weight-900 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 900;
+    p.yumincho.weight-normal font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: normal;
+    p.yumincho.weight-bold font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: bold;
+    //- p.yumincho.weight-100 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 100;
+    //- p.yumincho.weight-200 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 200;
+    //- p.yumincho.weight-300 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 300;　　　// Win: Light
+    //- p.yumincho.weight-400 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 400;　　　// Win: Regular
+    //- p.yumincho.weight-500 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 500;　　　// Win: Bold　Mac: Medium
+    //- p.yumincho.weight-600 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 600;　　　// Mac: Demibold
+    //- p.yumincho.weight-700 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 700;　　　// Mac: Extrabold
+    //- p.yumincho.weight-800 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 800;
+    //- p.yumincho.weight-900 font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: 900;
+    //- p.yumincho.weight-normal font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: normal;　　// Win: Regular　Mac: Medium
+    //- p.yumincho.weight-bold font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho"; font-weight: bold;　　// Win: Bold　Mac: Extrabold
+    h2 游明朝 Light（Windowsのみ）
+    p.yumincho-light.weight-100 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 100;
+    p.yumincho-light.weight-200 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 200;
+    p.yumincho-light.weight-300 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 300;
+    p.yumincho-light.weight-400 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 400;
+    p.yumincho-light.weight-500 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 500;
+    p.yumincho-light.weight-600 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 600;
+    p.yumincho-light.weight-700 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 700;
+    p.yumincho-light.weight-800 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 800;
+    p.yumincho-light.weight-900 font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: 900;
+    p.yumincho-light.weight-normal font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: normal;
+    p.yumincho-light.weight-bold font-family: "游明朝 Light", "Yu Mincho Light"; font-weight: bold;
+    h2 游明朝 Regular（Windowsのみ）
+    p.yumincho-regular.weight-100 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 100;
+    p.yumincho-regular.weight-200 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 200;
+    p.yumincho-regular.weight-300 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 300;
+    p.yumincho-regular.weight-400 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 400;
+    p.yumincho-regular.weight-500 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 500;
+    p.yumincho-regular.weight-600 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 600;
+    p.yumincho-regular.weight-700 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 700;
+    p.yumincho-regular.weight-800 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 800;
+    p.yumincho-regular.weight-900 font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: 900;
+    p.yumincho-regular.weight-normal font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: normal;
+    p.yumincho-regular.weight-bold font-family: "游明朝 Regular", "Yu Mincho Regular"; font-weight: bold;
+    h2 游明朝 Medium（Macのみ）
+    p.yumincho-medium.weight-100 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 100;
+    p.yumincho-medium.weight-200 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 200;
+    p.yumincho-medium.weight-300 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 300;
+    p.yumincho-medium.weight-400 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 400;
+    p.yumincho-medium.weight-500 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 500;
+    p.yumincho-medium.weight-600 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 600;
+    p.yumincho-medium.weight-700 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 700;
+    p.yumincho-medium.weight-800 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 800;
+    p.yumincho-medium.weight-900 font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: 900;
+    p.yumincho-medium.weight-normal font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: normal;
+    p.yumincho-medium.weight-bold font-family: "游明朝体 Medium", "YuMincho Medium"; font-weight: bold;
+    h2 游明朝 Demibold
+    p.yumincho-demibold.weight-100 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 100;
+    p.yumincho-demibold.weight-200 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 200;
+    p.yumincho-demibold.weight-300 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 300;
+    p.yumincho-demibold.weight-400 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 400;
+    p.yumincho-demibold.weight-500 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 500;
+    p.yumincho-demibold.weight-600 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 600;
+    p.yumincho-demibold.weight-700 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 700;
+    p.yumincho-demibold.weight-800 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 800;
+    p.yumincho-demibold.weight-900 font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: 900;
+    p.yumincho-demibold.weight-normal font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: normal;
+    p.yumincho-demibold.weight-bold font-family: "游明朝体 Demibold", "YuMincho Demibold", "游明朝 Demibold", "Yu Mincho Demibold"; font-weight: bold;
+    h2 游明朝 Extrabold（Macのみ）
+    p.yumincho-extrabold.weight-100 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 100;
+    p.yumincho-extrabold.weight-200 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 200;
+    p.yumincho-extrabold.weight-300 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 300;
+    p.yumincho-extrabold.weight-400 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 400;
+    p.yumincho-extrabold.weight-500 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 500;
+    p.yumincho-extrabold.weight-600 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 600;
+    p.yumincho-extrabold.weight-700 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 700;
+    p.yumincho-extrabold.weight-800 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 800;
+    p.yumincho-extrabold.weight-900 font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: 900;
+    p.yumincho-extrabold.weight-normal font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: normal;
+    p.yumincho-extrabold.weight-bold font-family: "游明朝体 Extrabold", "YuMincho Extrabold"; font-weight: bold;
+
